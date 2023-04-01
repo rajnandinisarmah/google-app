@@ -1,0 +1,49 @@
+.nav-container {
+    background-color: #202124;
+    padding: 1.6rem 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .logo-container {
+        .logo {
+            width: 92px;
+            height: 30px;
+            object-fit: contain;
+        }
+    }
+
+    .search-container {
+        width: 100%;
+
+        .search {
+            background-color: #303134;
+            padding: 0 1rem 0 2rem;
+            border-radius: 9999rem;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 500px;
+            gap: 1rem;
+
+            .search-input {
+                background-color: transparent;
+                border: none;
+                outline: none;
+                font-size: 17px;
+                width: 100%;
+            }
+        }
+    }
+
+    .profile-container {
+        display: flex;
+        gap: 1rem;
+
+        .profile-pic {
+            height: 1.7rem;
+            border-radius: 50%;
+        }
+    }
+}
