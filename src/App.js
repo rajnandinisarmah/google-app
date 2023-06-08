@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import SearchResult from "./Components/SearchResult/SearchResult";
 import './app.scss'
 import axios from "axios";
+import Briefup from "./Components/Google/Briefup";
 
 const user = {
   name: "Rajnandini", lastname: "Sarmah"
@@ -43,11 +44,12 @@ function App() {
       <Navbar />
       <Feed />
       <div className="about"> About 25,27,00,00,000 results (0.42 seconds) </div>
-      <SearchResult />
-      <SearchResult />
-      <SearchResult />
-
+      <div className="section">
+        <SearchResult />
+        <Briefup />
+      </div>
     </div>
+
   );
 }
 

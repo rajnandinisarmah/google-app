@@ -1,7 +1,31 @@
 .search-result {
-    padding-left: 10rem;
+    width: 60%;
 
     .sub-results {
         padding-left: 2rem;
+        margin-bottom: 1.5rem;
+
     }
+
+    .sub-results-google {
+        padding-left: 2rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .sub-results-about-g {
+        padding-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-results-wiki {
+        padding-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-results-fb {
+        padding-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
 }

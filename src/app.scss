@@ -3,6 +3,19 @@
     font-family: 10px Google Sans, arial,
         sans-serif;
     // margin-top: 4px;
-    padding: 4px 8px 0px 0px;
+    padding: 6px 8px 13px 0px;
     padding-left: 10rem;
+
+
+
+}
+
+.section {
+    display: flex;
+    align-items: start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
 }
