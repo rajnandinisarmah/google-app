@@ -5,7 +5,7 @@ import { HiOutlineSearch } from 'react-icons/hi'
 import { AiOutlineSetting } from 'react-icons/ai'
 import { CgMenuGridO } from 'react-icons/cg'
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <nav className='nav-container'>
 
@@ -15,9 +15,10 @@ export default function Navbar() {
 
             <div className='search-container'>
                 <div className='search'>
-                    <input className='search-input' type="text" placeholder='search' />
+                    <input onChange={e => props.setSearchKeyword(e.target.value)}
+                        className='search-input' type="text" placeholder='search' />
                     <RxCross2 size="1.5rem" color='grey' />
-                    <HiOutlineSearch size="1.5rem" color='grey' />
+                    <HiOutlineSearch onClick={props.onSearch} size="1.5rem" color='grey' />
                 </div>
             </div>
 
