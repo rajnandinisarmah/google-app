@@ -15,7 +15,7 @@ const arraymyname = [user];
 function App() {
   const [searchKeyword, setSearchKeyword] = useState("")
   const [result, setResult] = useState([])
-
+  console.log(result)
   const options = {
     method: 'GET',
     url: 'https://google-web-search1.p.rapidapi.com/',
